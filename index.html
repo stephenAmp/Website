@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...your-sha-hash..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Ham<span>Law</span></a>
+
+        <nav class="navbar" id="nav">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#projects">projects</a>
+            <a href="#pricing">pricing</a>
+            <a href="#contact">contact</a> 
+            <a href="#blogs">blogs</a>
+            
+        </nav>
+       <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="info-btn" class="fas fa-info-circle"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+       </div>
+            
+       <form action="" id ="searchForm" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+       </form>
+
+       <form action="" id="loginForm"class="login-form">
+        <h3>Login form</h3>
+        <input type="email" placeholder="Enter your email" class="box">
+        <input type="password" placeholder="Enter your password" class="box">
+        <div class="flex">
+            <input type="checkbox" name="" id=" rememver-me">
+            <label for="rememver-me">Remember me</label>
+            <a href="#">Forgot password?</a>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>Don't have an account?<a href="#">Create one here</a></p>
+       </form>
+
+    </header>
+
+<div class="contact-info" id="contactInfo">
+
+    <div id="close-contact-info" class="fas fa-times"></div>
+
+    <div class="info">
+        <i class="fas fa-phone"></i>
+        <h3>Phone number</h3>
+        <p>+233 111222333</p>
+        <p>+233 444555666</p>
+
+    </div>    
+
+
+    <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>E-mail address</h3>
+        <p>stephen013amponsem@gmail.com</p>
+        <p>leroy24santana@gmail.com</p>
+    
+    </div>
+ 
+    <div class="info">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Office address</h3>
+        <p>Accra,Ghana</p>
+    </div>
+
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+ 
+</div>
+
+<!-- End of header section -->
+
+<!-- Start of home section -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+          
+          <section class="swiper-slide slide" style="background:url(./assets/homepage/female-engineer.webp) no-repeat">
+                <div class="content">
+                   <h3>Shaping the future, one stone at a time</h3> 
+                   <p>Our quarrying mastery echoes through timeless landscapes</p>
+                   <a href="#about" class="btn">Get started</a>
+                </div>
+        
+            </section>
+
+
+          <section class="swiper-slide slide" style="background:url(./assets/homepage/construction-site.jpg) no-repeat">
+                <div class="content">
+                   <h3>Carving a legacy from Earth's embrace</h3> 
+                   <p>Where strength meets craftmanship, our stones tell stories that endure</p>
+                   <a href="#about" class="btn">Get started</a>
+                </div>
+        
+            </section>
+
+
+          <section class="swiper-slide slide" style="background:url(./assets/homepage/mining-excavator.jpg) no-repeat">
+                <div class="content">
+                   <h3>We make dreams come true</h3> 
+                   <p>From the heart of the earth to the soul of construction, our stones stand as silent architects of enduring excellence</p>
+                   <a href="#about" class="btn">Get started</a>
+                </div>
+        
+            </section>
+
+    
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+   
+</section>
+
+<!-- End of home section -->
+
+
+<!-- Start of About section -->
+<section class="about" id="about">
+
+    <h1 class="heading">about us</h1>
+
+    <div class="row">
+        <div class="video">
+            <video src="./assets/about/about-vid.MP4" loop muted autoplay></video>
+        </div>  
+
+        <div class="content">
+            <h3>We will provide you with nothing but the best!</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, debitis. Minima numquam illo non, et dolore ut quasi veritatis laboriosam, sit ipsum vitae delectus nulla reprehenderit voluptatem, ipsa mollitia assumenda.</p>
+            <a href="#services" class="btn">read more</a>
+
+        </div>
+
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>150+</h3>
+            <p>Projects completed </p>
+        </div>
+
+
+        <div class="box">
+            <h3>100</h3>
+            <p>satisfied clients</p>
+        </div>
+
+
+        <div class="box">
+            <h3>200+</h3>
+            <p>active workers</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- End of About section -->
+
+
+<!-- Service section starts here -->
+
+<section class="services" id="services">
+
+
+    <h1 class="heading">our services</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./assets/" alt="">
+            <h3>Raw material extraction</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quas ipsam aspernatur soluta.</p>
+        </div>
+        <div class="box">
+            <img src="" alt="">
+            <h3>Stone processing and customization</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quas ipsam aspernatur soluta.</p>
+        </div>
+
+
+        <div class="box">
+            <img src="" alt="">
+            <h3>Material Supply</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quas ipsam aspernatur soluta eum officiis nam, quis sapiente illo quae, praesentium consequatur obcaecati repellat assumenda nihil? Quas aliquid totam inventore.</p>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <h3>Construction consultancy</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quas ipsam aspernatur soluta eum officiis nam, quis sapiente illo quae, praesentium consequatur obcaecati repellat assumenda nihil? Quas aliquid totam inventor.</p>
+        </div>
+    </div>    
+</section>
+<!-- Upload illustrations in services -->
+<!-- Service section ends here -->
+
+<!-- project section starts here -->
+<section class="projects" id="projects">
+
+    <h1 class="heading">Our projects</h1>
+
+    <div class="box-container">
+
+
+        <a href="./assets/projects/project3.jpeg" class="box">
+            <div class="image">
+                <img src="./assets/projects/project3.jpeg" alt ="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Stone processing</h3>
+                    <p>Construction</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="./assets/projects/project4.jpg" class="box">
+            <div class="image">
+                <img src="./assets/projects/project4.jpg" alt ="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3></h3>
+                    <p>construction</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="./assets/projects/project5.jpg" class="box">
+            <div class="image">
+                <img src="./assets/projects/project5.jpg" alt ="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Stone extraction</h3>
+                    <p>construction, design</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="./assets/projects/project6.jpg" class="box">
+            <div class="image">
+                <img src="./assets/projects/project6.jpg" alt ="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Stone supply</h3>
+                    <p>Logistics</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- project section ends here -->
+
+</body>
+
+
+
+
+</html>
